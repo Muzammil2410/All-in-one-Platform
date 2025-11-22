@@ -11,7 +11,7 @@ export default function LocationModal() {
   const handleUseCurrentLocation = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
-        (position) => {
+        () => {
           setLocation('Current Location')
           setIsLocationModalOpen(false)
         },
