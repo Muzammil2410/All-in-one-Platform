@@ -1,0 +1,22 @@
+{
+  "name": "SourcesIn - All Your Needs in One Platform",
+  "short_name": "SourcesIn",
+  "description": "Your ultimate destination for groceries, e-commerce, fresh produce, restaurants, delivery services, and more.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "food", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr"
+}
+
